@@ -54,7 +54,7 @@ struct PressedButton: ButtonStyle {
                 }
             }
             .padding(20)
-            .background(isPressed ? .gray : .red)
+            .background(isPressed ? .gray : .clear)
             .foregroundColor(.blue)
             .clipShape(Circle())
             .scaleEffect(isPressed ? scale : 1)
